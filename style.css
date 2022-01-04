@@ -10,16 +10,17 @@ hi{
     color: red;
 }
 section{
-    display: flex;
+   
+    margin-bottom: 150px;
 }
-.apple{
+.half-width{
     width: 50%;
     padding-left: 2%;
-    width: 40%;
+    
+    
 }
-.ball img{
-    width: 80%;
-    width: 70%;
+.half-width img{
+    width: 50%;
 }
 .top-banner{
     background-image: url(image/top-banner.png);
@@ -37,4 +38,42 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.new-color{
+    color: firebrick;
+}
+.experience-item{
+    width: 20%;
+    padding-left: 20px;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-right: 5%;
+    box-shadow: 10px 10px 60px greenyellow;
+    border-right:10px  solid;
+}
+.front-size{
+    font-size: 50px;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-experience{
+    border-left: 70x solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-dev{
+    border-left: 70x solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
